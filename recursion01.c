@@ -1,13 +1,18 @@
-#include <stdio.h>
+// #include <stdio.h>
 
-float celsius(int fahrenheit);
-int main(){
+// float celsius(float fahrenheit);
+// int main(){
+//     float far
+    
     
 
-}
+// }
 
-float celsius(int fahrenheit){
-    float celsius;
-    celsius = (5.0 / 9.0) * (fahrenheit - 32);
-    return celsius;
-}
+// float celsius(float fahrenheit) {    
+//     float fahrenheit;
+//     printf("Enter temperature in Fahrenheit: ");
+//     scanf("%f", &fahrenheit);
+//     float celsius = (fahrenheit - 32) * 5.0/9.0;
+//     printf("Temperature in Celsius: %.2f\n", celsius(fahrenheit));
+//     return 0;
+// }

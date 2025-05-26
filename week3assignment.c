@@ -75,7 +75,7 @@ int main() {
 using a switch statement.*/
 // Sumit Phuyal
 
-#include <stdio.h>
+/* #include <stdio.h>
 int main(){
     char vowel;
     printf("Enter any letter from a to z: ");
@@ -86,15 +86,14 @@ int main(){
         case 'e':
         case 'i':
         case 'o':
-        case 'u':                
+        case 'u':
             printf("%c is a Vowel Letter\n", vowel);
             break;
         default:
             printf("%c is a Consonatant Letter\n", vowel);
     }
     return 0;
-}
-
+} */
 
 /*10. Write a program to compute the grade of students using an if-else ladder.
 The grades are assigned as follows:*/
@@ -201,44 +200,34 @@ int main() {
     return 0;
 } */
 
-/*6. Write a program to display the following pattern.
- **********
-  ********
-   ******
-    ****
-     **
-      *
- */
+/*6. Write a program to display the following pattern.*/
+//Sumit Phuyal
 
 /* #include <stdio.h>
 int main()
 {
-    int i, j, spaces = 0;
-    for (i = 10; i >= 2; i -= 2)
+    int rows = 5; 
+    for (int i = rows; i >= 1; i--)
     {
-        for (j = 0; j < spaces; j++)
+        
+        for (int space = 0; space < rows - i; space++)
         {
             printf(" ");
-        }
-        for (j = 1; j <= i; j++)
+        }       
+        for (int star = 0; star < (2 * i - 1); star++)
         {
             printf("*");
-        }
+        }       
         printf("\n");
-        spaces++;
     }
-    for (j = 0; j < 2; j++)
-    {
-        printf(" ");
-    }
-    printf("   *\n");
     return 0;
 } */
+
 
 /*5. Write a program to display the Fibonacci series.*/
 // sumit phuyal
 
-/* #include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int n, first = 0, second = 1, next, i;
@@ -260,4 +249,4 @@ int main() {
     }
 
     return 0;
-} */
+}
