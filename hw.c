@@ -9,8 +9,8 @@ void sum() {
 int main() {
     sum();
     return 0;
-} */
-
+}
+ */
 
 /* #include <stdio.h>
 
