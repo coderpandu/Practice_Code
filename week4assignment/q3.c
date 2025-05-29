@@ -19,7 +19,7 @@ int main(){
     printf("Multiply: %d\n", multiply(num1, num2));
     
     if (num1 == 0 || num2 == 0){
-        return 0;
+        return 0; // Avoid division by zero
     }else{
         printf("Division: %f\n", divide(num1, num2));
     }
