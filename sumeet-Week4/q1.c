@@ -26,3 +26,4 @@ int factorial(int n){ // function definition
         return n * factorial(n-1); // using recursion
     }
 }
+

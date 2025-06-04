@@ -20,7 +20,7 @@ int main(){
 }
 
 void swapByValue (int a, int b){ //function definition
-    int temp = a; //temp is a third variable
+    int temp = a; //temp is a third variableD
     a = b;
     b = temp;
     printf("Inside swapByValue: a = %d and b = %d\n", a, b);

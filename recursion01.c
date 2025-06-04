@@ -1,4 +1,4 @@
-// #include <stdio.h>
+#include <stdio.h>
 
 // float celsius(float fahrenheit);
 // int main(){
