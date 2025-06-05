@@ -1,4 +1,21 @@
-#include <stdio.h>
+/* #include <stdio.h>
+
+int main() {
+    int a[3][3] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+    printf("3x3 Matrix:\n");
+
+    for (int i = 0; i < 3; i++) {         // rows
+        for (int j = 0; j < 3; j++) {     // columns
+            printf("%d ", a[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+} */
+
+/* #include <stdio.h>
 int main() {
     int scores[5] = {85, 90, 78, 92, 88};
     int sum = 0;
@@ -7,12 +24,11 @@ int main() {
     }
     printf("Average score = %d\n", sum / 5);
     return 0;
-}
-
+} */
 
 /* #include <stdio.h>
 
-int main(){ 
+int main(){
     int marks[] = {10, 20, 30, 40, 50}; // Initialize an array with 5 elements
 
     marks[0] = 100; // Change the first element of the array
@@ -52,7 +68,6 @@ int main() {
     return 0;
 } */
 
-
 /* #include <stdio.h>
 
 int main(){
@@ -67,5 +82,72 @@ int main(){
     sum = items[0] + items[1] + items[2];
     withTAX = sum + (sum * 0.13); // Assuming a tax rate of 13%
     printf("Total price with tax: %.2f\n", withTAX);
+    return 0;
+} */
+
+/* #include <stdio.h>
+
+int main()
+{
+    int arr1[3][3], arr2[3][3], sum[3][3];
+    int i, j;
+
+    printf("Enter elements for arr1 3x3 matrix:\n");
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            scanf("%d", &arr1[i][j]);
+        }
+    }
+
+    printf("Enter elements for arr2 3x3 matrix:\n");
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            scanf("%d", &arr2[i][j]);
+        }
+    }
+
+    printf("The first 3x3 matrix is:\n");
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            printf("%d ", arr1[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("The second 3x3 matrix is:\n");
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            printf("%d ", arr2[i][j]);
+        }
+        printf("\n");
+    }
+
+    // Calculate the sum of the two matrices
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            sum[i][j] = arr1[i][j] + arr2[i][j];
+        }
+    }
+
+    printf("The sum of the two matrices is:\n");
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            printf("%d ", sum[i][j]);
+        }
+        printf("\n");
+    }
+
     return 0;
 } */
