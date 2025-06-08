@@ -1,3 +1,6 @@
+// 7. Write a program to multiply two 3*3 matrices.
+// Sumit Phuyal
+
 #include <stdio.h>
 
 int main() {
@@ -13,11 +16,12 @@ int main() {
         {3, 2, 1}
     };
 
-    int C[3][3] = {0}; // Result matrix
+    int C[3][3] = {0}; // Declare and initialize result matrix
 
     // Multiply A x B and store result in C
     for (int i = 0; i < 3; i++) {         // Rows of A
         for (int j = 0; j < 3; j++) {     // Columns of B
+            C[i][j] = 0; // Initialize C[i][j] to 0
             for (int k = 0; k < 3; k++) { // Columns of A / Rows of B
                 C[i][j] += A[i][k] * B[k][j];
             }
@@ -35,3 +39,7 @@ int main() {
 
     return 0;
 }
+
+
+
+

@@ -1,7 +1,10 @@
+// 5. Write a program to delete an element from a specified location in the array.
+// Sumit Phuyal
+
 #include <stdio.h>
 
 int main() {
-    int arr[100], n, pos, i;
+    int arr[100], n, pos, i; // pos refers to the position to delete
 
     // Input size of the array
     printf("Enter the number of elements in the array: ");
@@ -37,3 +40,7 @@ int main() {
 
     return 0;
 }
+
+
+
+
