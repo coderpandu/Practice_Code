@@ -1,3 +1,6 @@
+// 3. Write a program to find the sum of all the elements of an array using a pointer.
+// Sumit Phuyal
+
 #include <stdio.h>
 
 int main() {
