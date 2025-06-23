@@ -3,8 +3,8 @@
 
 #include <stdio.h>
 
-// Function to add two matrices
-void addMatrices(int a[2][2], int b[2][2], int result[2][2]) {
+// Function to add two matrices using pointers
+void addMatrices(int (*a)[2], int (*b)[2], int (*result)[2]) {
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
             result[i][j] = a[i][j] + b[i][j]; // Add corresponding elements
@@ -45,6 +45,7 @@ int main() {
 
     return 0;
 }
+
 
 // This program defines a function `addMatrices` that takes two 2x2 matrices and a result matrix as arguments.
 // It adds the corresponding elements of the two matrices and stores the result in the result matrix.
